@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['0', '1', '2', '3']
+
+roboflow:
+  workspace: ziads-workspace-0o9lk
+  project: grocery-items-ctvu4-oc3bw
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/ziads-workspace-0o9lk/grocery-items-ctvu4-oc3bw/dataset/1
