@@ -25,7 +25,7 @@ Cartly is a graduation/university project that demonstrates a full end-to-end Io
 - 🔄 **Live cloud sync** via Firebase Realtime Database, updating only when the basket state actually changes
 - 🧠 **Stable detection logic** — a confirm/hold frame tracker filters out flicker and prevents duplicate counting
 - 📱 **Companion Flutter app** showing live basket contents and running total
-- 🔌 **Hardware-deployed** — running live on a Raspberry Pi 5 with a Pi Camera v2, built into a physical basket prototype
+- 🔌 **Hardware-deployed** — set up, wired, and deployed on a Raspberry Pi 5 with a calibrated Pi Camera v2 (tuned resolution and positioning for optimal detection), running live on a physical basket prototype
 
 ---
 
@@ -125,9 +125,10 @@ Cartly was built as a graduation project combining computer vision, embedded sys
 
 | Module | Description | Owner |
 |---|---|---|
-| 🧠 AI / Computer Vision (this repo) | Dataset collection & annotation, YOLO26n training, edge optimization (ONNX/NCNN), Raspberry Pi deployment, Firebase integration | **Ziad Abdullah** |
+| 🧠 AI / Computer Vision (this repo) | Dataset collection & annotation, YOLO26n training, edge optimization (ONNX/NCNN) | **Ziad Abdullah** |
+| 🔌 Hardware Integration & Deployment | Raspberry Pi 5 setup & wiring, Pi Camera v2 installation and calibration (resolution/positioning tuning), electrical connections, deploying and running the model on-device | **Ziad Abdullah** |
 | 📱 Mobile App | Flutter app consuming the live Firebase basket data | Teammate |
-| 🔌 Hardware Assembly | Physical basket build, Raspberry Pi 5 + Pi Camera v2 setup | Team |
+| 🔨 Physical Basket Build | Basket frame/enclosure assembly | Team |
 
 ## 📄 License
 
