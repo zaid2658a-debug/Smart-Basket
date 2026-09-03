@@ -112,7 +112,10 @@ python AI/inference_onnx.py --model AI/best.onnx --source 0 \
 
 ## 🎥 Demo
 
-*(Add a photo of the physical basket prototype, a screenshot of the Flutter app, and a demo video/GIF of the detection running here.)*
+![Basket Prototype](assets/basket_photo.jpg)
+![App Screenshot](assets/app_screenshot.png)
+
+🎥 [Watch the demo video](assets/demo.mp4)
 
 ---
 
